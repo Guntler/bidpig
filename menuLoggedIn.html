@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="pesquisaStyle.css">
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+		<script type="text/javascript" src="cookieUtils.js"></script>
+		<script type="text/javascript">
+			function logout() {
+				del_cookie("login");
+				del_cookie("permission");
+				location.reload();
+			}
+		</script>
+	</head>
+	<body>
+		<ul id="loggedOptions">
+			<li><a href="Inicio.html">Inicio</a></li>
+			<li><a href="Pesquisa.html">Pesquisa</a></li>
+			<li><a href="Update.html">Adicionar/Actualizar</a></li>
+			<li><a href="" onclick="logout();">Logout</a></li>
+		</ul>
+	</body>
+</html>
