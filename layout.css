@@ -8,7 +8,8 @@ html, body {
 
 .header {
 	background-color: #e4e4e4;
-	overflow: hidden; 
+	/*background-color: #FF999E;*/
+	overflow: hidden;
 	height: 20%;
 }
 
@@ -89,50 +90,92 @@ html, body {
 .header #tabs li {
 	display: inline-block;
 	border: 2px solid;
-	border-color: grey;
+	border-color: #f9f9f9;
 	border-bottom-width: 0;
+	border-style:none;
 	margin-right: 10px;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 	padding: 0;	
-	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cecece));
-	background: -moz-linear-gradient(top,  #ffffff,  #cecece);
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cecece));
+	background: -moz-linear-gradient(top,  #ffffff,  #cecece);*/
+	background-color: #e4e4e4;
 }
 
 .header #tabs li:hover {
-	background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#a6a6a6));
-	background: -moz-linear-gradient(top,  #ffffff,  #a6a6a6);
+	/*background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#a6a6a6));
+	background: -moz-linear-gradient(top,  #ffffff,  #a6a6a6);*/
+	background-color: #c0c0c0;
 }
+
+.header #tabs li:hover a {
+	color:white;
+}
+
 .header #tabs li a {
-	padding: 0 1.5em;
+	padding: 0 2em;
 	text-decoration:none;
 	color: black;
 }
 
+.header #tabs li img {
+	padding-right:3px;
+}
+
 .header #tabs #selected {
 	position: relative;
-	top: 4px;
-	float: left;
+	/*top: -2px;*/
 	border: 3px solid;
 	border-bottom-width: 0;
-	margin: 0 0.5em 0 0;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
+	border-style:none;
+	border-bottom-style:solid;
+	margin: 0 0.5em 0 0;
 	background-color: #a8a8a8;
+}
+
+.header #tabs #selected a {
+	color:white;
+}
+
+.header #headerProfile {
+	float:right;
+	display: inline-block;
+	margin-top:-6%;
+}
+
+.header #headerProfile button {
+	border-style: none;
+	background:none;
+	margin-right:10px;
+	margin-left:10px;
+}
+
+.header #headerProfile button img{
+	width:50px;
+	height:auto;
 }
 
 .menu {
 	background-color: #a8a8a8;
+	/*background-color: #FFC29A;*/
 	padding: 0;
 	border-top-style: solid;
 	border-bottom-style: solid;
+	border-top-width:1px;
+	border-bottom-width:1px;
+	border-color:#f9f9f9;
+	border-style:none;
 	width: 100%;
 	clear: both;
 }
 
 .menu button {
 	height:30px;
-	color: black;
+	background:none;
+	border:none;
+	border-radius:7px;
 }
 
 .menu ul {
@@ -154,10 +197,20 @@ html, body {
   
 .menu a{ 
     display:block; 
-    color: black;
+    /*color: #A64F17;*/
+	color: white;
     width:140px;
     text-decoration: none; 
-} 
+}
+
+.menu button:hover {
+	background-color:#e4e4e4;
+	/*background-color:#A64F17;*/
+}
+
+.menu button:hover a{
+	color:black;
+}
     
 .content {
 	background-color: #e4e4e4;
@@ -247,6 +300,7 @@ html, body {
 	border-top-style: solid;
 	border-bottom-style: solid;
 	background-color: #a8a8a8;
+	/*background-color: #FFAC76;*/
 }
 
 /*
