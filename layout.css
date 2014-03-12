@@ -13,20 +13,22 @@ html, body {
 }
 
 .header #logo {
+	width: 33%;
 	margin-top: 15px;
 	margin-bottom: -15px;
 	float: left;
 }
 
 .header #topSearchForm {
-	margin-top:45px;
-	margin-left:30%;
-	width: 40%;
+	float: left;
+	margin-top: 30px;
+	margin-bottom: -15px;
+	width: 33%;
+	text-align: center;
 }
 
 .header #topSearchBar {
-	width: 80%;
-	float: left;
+	width: 70%;
 	border-top-left-radius: 7px;
 	border-bottom-left-radius: 7px;
 	border: 1px solid;
@@ -40,8 +42,7 @@ html, body {
 }
 
 .header #topSearchButton {
-	width: 10%;
-	float: left;
+	display: inline;
 	border-top-right-radius: 7px;
 	border-bottom-right-radius: 7px;
 	border-left:none;
@@ -79,24 +80,18 @@ html, body {
 
 .header  #tabs{
 	width:100%;
+	text-align: center;
 	list-style: none;
 	padding:0;
 	margin:0;
-	display:inline;
-}
-
-.header #tabs li:first-child{
-	margin-left: 25%;
 }
 
 .header #tabs li {
-	float: left;
-	width: 10%;
-	text-align: center;
+	display: inline-block;
 	border: 2px solid;
 	border-color: grey;
 	border-bottom-width: 0;
-	margin-left: 10px;
+	margin-right: 10px;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
 	padding: 0;	
@@ -128,7 +123,7 @@ html, body {
 
 .menu {
 	background-color: #a8a8a8;
-	padding: 16px 0px 16px 0px; 
+	padding: 0;
 	border-top-style: solid;
 	border-bottom-style: solid;
 	width: 100%;
@@ -141,18 +136,15 @@ html, body {
 }
 
 .menu ul {
-    list-style-type: none;
     margin:0;
     padding:0px;
 	width:100%;
-	display:inline;
+	text-align: center;
+	margin-bottom: 0;
 } 
   
 .menu li{ 
-    float: left; 
-	padding-left: 0.1%;
-	padding-right: 0.1%;
-	margin-top:-15px;
+	margin-right: 2px;
 	display:inline-block;
 } 
   
