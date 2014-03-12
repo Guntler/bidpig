@@ -15,39 +15,35 @@ html, body {
 
 .header #logo {
 	width: 33%;
-	margin-top: 15px;
 	margin-bottom: -15px;
 	float: left;
 }
 
 .header #topSearchForm {
-	float: left;
-	margin-top: 30px;
-	margin-bottom: -15px;
-	width: 33%;
-	text-align: center;
+	margin-left:35%;
+	margin-top: 1%;
+	text-align: left;
 }
 
 .header #topSearchBar {
-	width: 70%;
-	border-top-left-radius: 7px;
-	border-bottom-left-radius: 7px;
-	border: 1px solid;
+	border-radius: 7px;
+	border: 1% solid;
 	border-color: grey;
 	font-family: Arial, Helvetica, sans-serif;
-	font-size:14px;
+	font-size:100%;
 	color:#666;
-	padding: 5px 15px;
-	margin-right: 0px;
-	border-right: none;
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
+	width: 200%;
 }
 
 .header #topSearchButton {
 	display: inline;
-	border-top-right-radius: 7px;
-	border-bottom-right-radius: 7px;
+	border-radius: 7px;
 	border-left:none;
-	padding: 5px 7px;
+	/*padding: 5px 7px;*/
+	padding-top: 2.5%;
+	padding-bottom: 2.5%;
 	margin-left: 0px;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size:14px;
@@ -85,6 +81,7 @@ html, body {
 	list-style: none;
 	padding:0;
 	margin:0;
+	padding-top:0px;
 }
 
 .header #tabs li {
@@ -96,7 +93,9 @@ html, body {
 	margin-right: 10px;
 	border-top-left-radius: 7px;
 	border-top-right-radius: 7px;
-	padding: 0;	
+	padding: 0;
+	height:40px;
+	
 	/*background: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#cecece));
 	background: -moz-linear-gradient(top,  #ffffff,  #cecece);*/
 	background-color: #e4e4e4;
@@ -113,13 +112,16 @@ html, body {
 }
 
 .header #tabs li a {
-	padding: 0 2em;
+	display:inline;
+	padding: 0 1em;
 	text-decoration:none;
 	color: black;
+	height:100%;
 }
 
 .header #tabs li img {
-	padding-right:3px;
+	padding-right:5px;
+	padding-top:10px;
 }
 
 .header #tabs #selected {
@@ -139,10 +141,17 @@ html, body {
 	color:white;
 }
 
+.header #tabBox {
+	float:left;
+	margin-left:33%;
+	margin-top:-2%;
+}
+
 .header #headerProfile {
 	float:right;
 	display: inline-block;
 	margin-top:-6%;
+	margin-right: 5%;
 }
 
 .header #headerProfile button {
@@ -214,8 +223,7 @@ html, body {
     
 .content {
 	background-color: #e4e4e4;
-	text-align:center;
-	padding-top: 20px;
+	padding-top: 2%;
 }
 
 #loginContent {
@@ -224,79 +232,32 @@ html, body {
 	margin-right:25%;
 }
 
+#usernameField, #passwordField {
+}
+
 #loginForm {
-	padding-top: 20px;
-	padding-right: 60px;
-	float:center;
+	margin-left: 25%;
+	margin-right: 25%;
+	padding-bottom:2%;
 }
 
-#username {
-	float:left;
-	margin-left:-3px;
-	margin-bottom: 2px;
-	border-top-right-radius: 7px;
-	border-bottom-right-radius: 7px;
-	border: 1px solid;
-	border-color: grey;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:14px;
-	color:#666;
-}
-
-#password {
-	float:left;
-	margin-bottom: 2px;
-	border-top-right-radius: 7px;
-	border-bottom-right-radius: 7px;
-	border: 1px solid;
-	border-color: grey;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:14px;
-	color:#666;
-}
-
-#tryLoginButton {
-	background-color: #f7f7f7;
-	border-radius: 15px;
-	margin-left:25%;
-	margin-right:25%;
-	margin-top:2px;
-	margin-bottom:2px;
-}
-
-#usernameDecor,#passwordDecor {
-	float:left;
-	padding: 1px 7px;
-	margin-left: 30%;
-	font-family: Arial, Helvetica, sans-serif;
-	font-size:14px;
-	font-weight:bold;
-	outline: none;
-	text-align: center;
-	text-decoration: none;
-	color: #ffffff;
-	background: #0095cd;
-	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
-	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
-	border: 1px solid;
-	border-color: #0078a5;
-	border-top-left-radius: 7px;
-	border-bottom-left-radius: 7px;
-	border-right:none;
+#registerRecover {
+	text-align:center;
+	margin-bottom:5%;
 }
 
 .wrapper {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -180px; /* the bottom margin is the negative value of the footer's height */
+	margin: 0 auto -95px; /* the bottom margin is the negative value of the footer's height */
 }
 
-.footer, .push {
-	height: 180px; /* .push must be the same height as .footer */
+#footer, .push {
+	height: 95px; /* .push must be the same height as .footer */
 }
 
-.footer {
+#footer {
 	border-top-style: solid;
 	border-bottom-style: solid;
 	background-color: #a8a8a8;
