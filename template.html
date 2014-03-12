@@ -11,7 +11,7 @@
     <div class="header">
         <a id="logo" href="template.html"><img src="logo.png" ></a>
 		<form action="search.asp" id="topSearchForm">
-			<input type="text" name="searchContents" id="topSearchBar" placeholder="Search our Website...">
+			<input type="text" name="searchContents" id="topSearchBar" placeholder="Pesquise na plataforma...">
 			<input type="submit" value=">" id="topSearchButton">
 		</form>
 		<a href="">Login</a>
@@ -38,11 +38,11 @@
 	</div>
 
     <div class="content">
-        <div id="LoginContent">
+        <div id="loginContent">
             <h2>ENTRAR</h2>
             <form id="loginForm">
-                Username: <input type="text" name="username" id="username"><br>
-                Password: <input type="password" name="password" id="password"><br>
+                <div id="usernameDecor">Username:</div><input type="text" name="username" id="username"><br>
+                <div id="passwordDecor">Password:</div><input type="password" name="password" id="password"><br>
                 <input type="submit" value="Entrar" id="tryLoginButton"><br>
             </form>
             <a href="register.html">Registar</a> | <a href="pwdrecovery.html">Recuperar Palavra-Passe</a>
