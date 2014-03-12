@@ -1,11 +1,13 @@
 <!DOCTYPE html>
-<html>
-<head>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap 101 Template</title>
 
     <!-- Bootstrap -->
-	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -13,86 +15,77 @@
       <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
-    <title>Leilões</title>
-    <meta charset="UTF-8">
-    <link rel="stylesheet" href="layout.css">
+    
+   <link href="login.css" rel="stylesheet">
 
-</head>
-<body>
-<div class="container-fluid">
-	<div class="wrapper">
-		<div class="row">
-			<div class="header" role="banner">
-				<div id="leftBox">
-					<a class="logo" id="logo" href="template.html"><img class="img-responsive" src="logo.png" ></a>
-				</div>
-				<form class="navbar-form navbar-center" role="search" action="search.asp" id="topSearchForm">
-					<div class="input-group">
-						<input class="form-control" type="text" name="searchContents" id="topSearchBar" placeholder="Pesquise na plataforma...">
-					</div>
-				</form>
-				<div class="clear"></div>
-				<div id="headerProfile">
-					Bem-vindo, visitante.<br>
-					<button><img src="register_icon.png" ></button>
-				</div>
-				<div id="tabBox">
-					<ul class="container" id="tabs">
-						<li><a href="#"><img src="profile_icon.png" >Perfil</a></li>
-						<li><a href="#"><img src="inventory_icon.png" >Inventário</a></li>
-						<li><a href="#"><img src="auctions_icon.png" >Leilões</a></li>
-						<li id="selected"><a href="#"><img src="favorites_icon.png" >Favoritos</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	<div class="row">
-		<div class="menu">
-			<ul id="menuSearchButtons">
-				<li><button id="clothingSearchButton"><a href="">Vestimenta</a></button></li> | 
-				<li><button id="artSearchButton"><a href="">Arte</a></button></li> | 
-				<li><button id="appliancesSearchButton"><a href="">Eletrodomésticos</a></button></li> | 
-				<li><button id="informaticsSearchButton"><a href="">Informática</a></button></li> | 
-				<li><button id="carSearchButton"><a href="">Automóveis</a></button></li> | 
-				<li><button id="housewaresSearchButton"><a href="">Mobília</a></button></li> | 
-				<li><button id="houseSearchButton"><a href="">Imobiliário</a></button></li> | 
-				<li><button id="servicesSearchButton"><a href="">Serviços</a></button></li>
-			</ul>
-		</div>
-	</div>
-	
-	<div class="row">
-		<div class="content">
-			<div id="loginContent" class="content">
-				<form class="form-signin" role="form" id="loginForm">
-					<h2 class="form-signin-heading">ENTRAR</h2>
-					<input class="form-control" required="" autofocus="" type="text" placeholder="Email address" id="usernameField"><br>
-					<input class="form-control" required="" type="password" placeholder="Password" id="passwordField"><br>
-					<label class="checkbox">
-						<input type="checkbox" value="remember-me"> Remember me
-					</label>
-					<button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-				</form>
-				<div id="registerRecover">
-					<a href="register.html">Registar</a> | <a href="pwdrecovery.html">Recuperar Palavra-Passe</a>
-				</div>
-			</div>
-			<div class="push"></div>
-		</div>
-	</div>
+  </head>
+  <body>
+  <div class="header container-fluid">
+    <div class="row">
+      <div class="col-lg-3 logo"><img src="logo.PNG"></div>
+      <div class="col-lg-6 middle">
+          <div class="input-group searchGroup center">
+            <input type="text" class="form-control" placeholder="Pesquisar na plataforma...">
+          </div>
+        </div>
+      <div class="col-lg-3 loginArea">
+        <p>Bem-vindo, Daniel.</p>
+        <button><img src="create_icon.png" ></button>
+        <button><img src="notifications_icon.png" ></button>
+        <button><img src="avatar_icon.png" ></button>
+        <button><img src="off_button.png" ></button>
+      </div>
+    </div>
+  </div>
+  
+  <ul class="container-fluid tabs">
+            <li><a href="#"><img src="profile_icon.png" >Perfil</a></li>
+            <li><a href="#"><img src="inventory_icon.png" >Inventário</a></li>
+            <li><a href="#"><img src="auctions_icon.png" >Leilões</a></li>
+            <li id="selected"><a href="#"><img src="favorites_icon.png" >Favoritos</a></li>
+  </ul>
+  
+  <div class="menu container-fluid">
+    <div class="row">
+      <ul id="menuSearchButtons">
+        <li><button id="clothingSearchButton"><a href="">Vestimenta</a></button></li> | 
+        <li><button id="artSearchButton"><a href="">Arte</a></button></li> | 
+        <li><button id="appliancesSearchButton"><a href="">Eletrodomésticos</a></button></li> | 
+        <li><button id="informaticsSearchButton"><a href="">Informática</a></button></li> | 
+        <li><button id="carSearchButton"><a href="">Automóveis</a></button></li> | 
+        <li><button id="housewaresSearchButton"><a href="">Mobília</a></button></li> | 
+        <li><button id="houseSearchButton"><a href="">Imobiliário</a></button></li> | 
+        <li><button id="servicesSearchButton"><a href="">Serviços</a></button></li>
+      </ul>
+    </div>
+  </div>
 
-	<div class="row">
-		<div id="footer">
-			<div class="container">
-			<p class="text-muted"></p>
-			</div>
-		</div>
-	</div>
-</div>
-<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <div class="main container-fluid">
+    <div id="loginContent" class="content">
+      <form class="form-signin" role="form" id="loginForm">
+        <h2 class="form-signin-heading center">ENTRAR</h2>
+        <input class="form-control" required="" autofocus="" type="text" placeholder="Email address" id="usernameField"><br>
+        <input class="form-control" required="" type="password" placeholder="Password" id="passwordField"><br>
+        <label class="checkbox">
+          <input type="checkbox" value="remember-me"> Remember me
+        </label>
+        <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
+      </form>
+      <div id="registerRecover">
+        <a href="register.html">Registar</a> | <a href="pwdrecovery.html">Recuperar Palavra-Passe</a>
+      </div>
+    </div>
+    <div class="push"></div>
+  </div>
+
+  <div class="footer container-fluid">
+    
+  </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-	</div>
-</body>
+  </body>
 </html>
