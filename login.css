@@ -1,9 +1,21 @@
+html,body{
+  height: 100%;
+}
 body{
   background-color: grey;
   width: 100%;
 }
+.wrapper{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;  
+}
+.push{
+  height: 60px;
+}
 .header{
-  float:left;
   width:100%;
   background-color: #e4e4e4;
   text-align: center;
@@ -163,13 +175,13 @@ body{
 }
 
 .footer {
-  background-color: #a8a8a8;
+  padding-top: 8px;
+  padding-bottom: -8px;
+  height: 60px;
+  background-color: #a8a8a8;  
 }
 
 .footer #footerIcon{
-	margin-top:10%;
-	margin-left:100%;
-	margin-bottom:5%;
 	width:50px;
 	height:auto;
 }
