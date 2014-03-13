@@ -64,7 +64,6 @@ body{
   border-top-left-radius: 7px;
   border-top-right-radius: 7px;
   background-color: #e4e4e4;
-  height:40px;
 }
 
 .tabs li:hover {
@@ -94,6 +93,7 @@ body{
   border-top-right-radius: 7px;
   border-style:none;
   border-bottom-style:solid;
+  margin: 0 0.5em 0 0;
   background-color: #a8a8a8;
 }
 

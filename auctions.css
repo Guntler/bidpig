@@ -142,24 +142,13 @@ body{
   background-color: #e4e4e4;
 }
 
-#loginContent {
-  border-style: solid;
+#auctionsContent {
   margin-left:10%;
   margin-right:10%;
 }
 
-#usernameField, #passwordField {
-}
-
-#loginForm {
-  margin-left: 25%;
-  margin-right: 25%;
-  padding-bottom:2%;
-}
-
-#registerRecover {
-  text-align:center;
-  margin-bottom:5%;
+#auctionsContent #selected{
+	vertical-align:middle;
 }
 
 .footer {

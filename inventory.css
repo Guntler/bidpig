@@ -142,24 +142,20 @@ body{
   background-color: #e4e4e4;
 }
 
-#loginContent {
-  border-style: solid;
+#inventoryContent {
   margin-left:10%;
   margin-right:10%;
 }
 
-#usernameField, #passwordField {
+#inventoryContent #selected{
+	vertical-align:middle;
 }
 
-#loginForm {
-  margin-left: 25%;
-  margin-right: 25%;
-  padding-bottom:2%;
-}
-
-#registerRecover {
-  text-align:center;
-  margin-bottom:5%;
+#inventoryContent #pictureExample img {
+  height:auto;
+  width:auto;
+  max-width:100px;
+  max-height:100px;
 }
 
 .footer {

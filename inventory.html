@@ -16,7 +16,7 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-   <link href="login.css" rel="stylesheet">
+   <link href="inventory.css" rel="stylesheet">
 
   </head>
   <body>
@@ -44,12 +44,12 @@
     </div>
   </div>
   
-  <ul class="container-fluid tabs">
-            <li><a href="#"><img src="profile_icon.png" >Perfil</a></li>
-            <li><a href="inventory.html"><img src="inventory_icon.png" >Inventário</a></li>
-            <li><a href="auctions.html"><img src="auctions_icon.png" >Leilões</a></li>
-            <li><a href="#"><img src="favorites_icon.png" >Favoritos</a></li>
-  </ul>
+	<ul class="container-fluid tabs">
+		<li><a href="#"><img src="profile_icon.png" >Perfil</a></li>
+		<li id="selected"><a href="inventory.html"><img src="inventory_icon.png" >Inventário</a></li>
+		<li><a href="auctions.html"><img src="auctions_icon.png" >Leilões</a></li>
+		<li><a href="#"><img src="favorites_icon.png" >Favoritos</a></li>
+	</ul>
   
   <div class="menu container-fluid">
     <div class="row">
@@ -66,23 +66,47 @@
     </div>
   </div>
 
-  <div class="main container-fluid">
-    <div id="loginContent" class="content">
-      <form class="form-signin" role="form" id="loginForm">
-        <h2 class="form-signin-heading center">ENTRAR</h2>
-        <input class="form-control" required="" autofocus="" type="text" placeholder="Email address" id="usernameField"><br>
-        <input class="form-control" required="" type="password" placeholder="Password" id="passwordField"><br>
-        <label class="checkbox">
-          <input type="checkbox" value="remember-me">Lembrar Palavra-Passe
-        </label>
-        <button class="btn btn-lg btn-primary btn-block" type="submit">Submeter</button>
-      </form>
-      <div id="registerRecover">
-        <a href="register.html">Registar</a> | <a href="pwdrecovery.html">Recuperar Palavra-Passe</a>
-      </div>
-    </div>
-    <div class="push"></div>
-  </div>
+	<div class="main container-fluid">
+		<div class="row">
+			<div id="inventoryContent" class="content">
+				<div class="col-lg-6 middle" id="selectionButtons">
+					<button type="button" class="btn btn-default">Selecionar Todos</button>
+					<button type="button" class="btn btn-default">Deselecionar Todos</button>
+					<button type="button" class="btn btn-default">Inverter Selecção</button>
+				</div>
+				<div class="col-lg-6 middle" id="objectButtons">
+					<button type="button" class="btn btn-info">Criar Novo</button>
+					<button type="button" class="btn btn-danger">Apagar</button>
+					<button type="button" class="btn btn-success">Criar Leilão</button>
+				</div>
+				<div class="table-responsive">
+					<table class="table table-striped table-hover">
+						<thead>
+							<tr>
+								<th>#</th>
+								<th>Imagens</th>
+								<th>Nome</th>
+								<th>Descrição</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td id="selected">
+									<label class="checkbox">
+										<input type="checkbox" value="remember-me">
+									</label>
+								</td>
+								<td id="pictureExample"><img src="ipad_inventory.jpg"><img src="ipad_inventory_2.jpg"></td>
+								<td>iPad 2 usado</td>
+								<td>Risco no botão principal.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</div>
+			<div class="push"></div>
+		</div>
+	</div>
 
   <div class="footer container-fluid">
     
