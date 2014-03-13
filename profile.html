@@ -20,112 +20,113 @@
 
   </head>
   <body>
-  <div class="wrapper">
-    <div class="header container-fluid">
-      <div class="row">
-        <div class="col-lg-3 logo"><a href="index.html"><img src="logo.png"></a></div>
-        <div class="col-lg-6 middle">
-            <div class="input-group searchGroup center">
-              <form action="searchResults.html" method="get">
-              <input type="text" class="form-control" placeholder="Pesquisar na plataforma...">
-  			</form>
+    <div class="wrapper">
+      <div class="header container-fluid">
+        <div class="row">
+          <div class="col-lg-3 logo"><a href="index.html"><img src="logo.png"></a></div>
+          <div class="col-lg-6 middle">
+              <div class="input-group searchGroup center">
+                <form action="searchResults.html" method="get">
+                <input type="text" class="form-control" placeholder="Pesquisar na plataforma...">
+    			</form>
+              </div>
             </div>
+          <div class="col-lg-3 loginArea">
+            <p>Bem-vindo, Visitante.</p>
+    		<a href="register.html"><button><img src="register_icon.png" ></button></a>
+            <a href="login.html"><button><img src="off_button.png" ></button></a>
+            <!-- Mostrar apenas quando identificado
+            <button><img src="create_icon.png" ></button>
+            <button><img src="notifications_icon.png" ></button>
+            <button><img src="avatar_icon.png" ></button>
+            <button><img src="off_button.png" ></button>
+            -->
           </div>
-        <div class="col-lg-3 loginArea">
-          <p>Bem-vindo, Visitante.</p>
-  		<a href="register.html"><button><img src="register_icon.png" ></button></a>
-          <a href="login.html"><button><img src="off_button.png" ></button></a>
-          <!-- Mostrar apenas quando identificado
-          <button><img src="create_icon.png" ></button>
-          <button><img src="notifications_icon.png" ></button>
-          <button><img src="avatar_icon.png" ></button>
-          <button><img src="off_button.png" ></button>
-          -->
         </div>
       </div>
-    </div>
-    
-  	<ul class="container-fluid tabs">
-  		<a href="#"><li><img src="profile_icon.png" >Perfil</li></a>
-  		<a href="inventory.html"><li><img src="inventory_icon.png" >Inventário</li></a>
-  		<a href="auctions.html"><li><img src="auctions_icon.png" >Leilões</li></a>
-  		<a href="#"><li><img src="favorites_icon.png" >Favoritos</li></a>
-  	</ul>
-    
-    <div class="menu container-fluid">
-      <div class="row">
-        <ul id="menuSearchButtons">
-          <li><button id="clothingSearchButton"><a href="">Vestimenta</a></button></li> | 
-          <li><button id="artSearchButton"><a href="">Arte</a></button></li> | 
-          <li><button id="appliancesSearchButton"><a href="">Eletrodomésticos</a></button></li> | 
-          <li><button id="informaticsSearchButton"><a href="">Informática</a></button></li> | 
-          <li><button id="carSearchButton"><a href="">Automóveis</a></button></li> | 
-          <li><button id="housewaresSearchButton"><a href="">Mobília</a></button></li> | 
-          <li><button id="houseSearchButton"><a href="">Imobiliário</a></button></li> | 
-          <li><button id="servicesSearchButton"><a href="">Serviços</a></button></li>
-        </ul>
+      
+    	<ul class="container-fluid tabs">
+    		<a href="#"><li><img src="profile_icon.png" >Perfil</li></a>
+    		<a href="inventory.html"><li><img src="inventory_icon.png" >Inventário</li></a>
+    		<a href="auctions.html"><li><img src="auctions_icon.png" >Leilões</li></a>
+    		<a href="#"><li><img src="favorites_icon.png" >Favoritos</li></a>
+    	</ul>
+      
+      <div class="menu container-fluid">
+        <div class="row">
+          <ul id="menuSearchButtons">
+            <li><button id="clothingSearchButton"><a href="">Vestimenta</a></button></li> | 
+            <li><button id="artSearchButton"><a href="">Arte</a></button></li> | 
+            <li><button id="appliancesSearchButton"><a href="">Eletrodomésticos</a></button></li> | 
+            <li><button id="informaticsSearchButton"><a href="">Informática</a></button></li> | 
+            <li><button id="carSearchButton"><a href="">Automóveis</a></button></li> | 
+            <li><button id="housewaresSearchButton"><a href="">Mobília</a></button></li> | 
+            <li><button id="houseSearchButton"><a href="">Imobiliário</a></button></li> | 
+            <li><button id="servicesSearchButton"><a href="">Serviços</a></button></li>
+          </ul>
+        </div>
       </div>
-    </div>
 
-    <div class="main container-fluid">
+      <div class="main container-fluid">
         <div class="row">
           <div class="col-lg-4">
             <img class="img-responsive picture" src="avatar_icon.png">
             <h3>DonLawride<br><small>Daniel Pereira</small></h3> 
           </div>
           <div class="col-lg-8">
-          <div class="panel panel-default">
-            <!-- Default panel contents -->
-            <div class="panel-heading">
-              <h4>Dados</h4>
-            </div>
+            <div class="panel panel-default">
+              <!-- Default panel contents -->
+              <div class="panel-heading">
+                <h4>Dados</h4>
+              </div>
 
-            <!-- Table -->
+              <!-- Table -->
+              <div class="table-responsive">
+                <table class="table">
+                  <tr>
+                    <td>Nome</td>
+                    <td>Daniel Pereira</td>
+                  </tr>
+                  <tr>
+                    <td>Idade</td>
+                    <td>20</td>
+                  </tr>
+                  <tr>
+                    <td>Sexo</td>
+                    <td>Masculino &#9794;</td>
+                  </tr>
+                  <tr>
+                    <td>E-mail</td>
+                    <td>example@mycompany.com</td>
+                  </tr>
+                  <tr>
+                    <td>País</td>
+                    <td>Portugal</td>
+                  </tr>
+                </table>
+              </div>
+            </div>
+          </div>          
+        </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4>Inventário</h4>
+            </div>
             <div class="table-responsive">
               <table class="table">
                 <tr>
-                  <td>Nome</td>
-                  <td>Daniel Pereira</td>
-                </tr>
-                <tr>
-                  <td>Idade</td>
-                  <td>20</td>
-                </tr>
-                <tr>
-                  <td>Sexo</td>
-                  <td>Masculino &#9794;</td>
-                </tr>
-                <tr>
-                  <td>E-mail</td>
-                  <td>example@mycompany.com</td>
-                </tr>
-                <tr>
-                  <td>País</td>
-                  <td>Portugal</td>
+                  <td id="pictureExample">
+                    <button type="button" class="btn btn-default"><img src="ipad_inventory.jpg"><p align="center">iPad 2 usado</p></button>
+                    <button type="button" class="btn btn-default"><img src="rolex_inventory.jpg"><p align="center">Rolex usado</p></button>
+                    <button type="button" class="btn btn-default"><img src="pig_inventory.jpg"><p align="center">Mealheiro usado</p></button>
+                  </td>
                 </tr>
               </table>
             </div>
           </div>
-          
-          </div>          
-        </div>
-      <div class="row">
-      <div class="col-lg-12">
-    <div class="panel panel-default">
-      <div class="panel-heading">
-        <h4>Inventário</h4>
-      </div>
-      <div class="table-responsive">
-          <table class="table">
-              <tr>
-                <td id="pictureExample"><button type="button" class="btn btn-default"><img src="ipad_inventory.jpg"><p align="center">iPad 2 usado</p></button>
-                <button type="button" class="btn btn-default"><img src="rolex_inventory.jpg"><p align="center">Rolex usado</p></button>
-                <button type="button" class="btn btn-default"><img src="pig_inventory.jpg"><p align="center">Mealheiro usado</p></button></td>
-              </tr>
-          </table>
-        </div>
-    </div>
-    <div class="panel panel-default">
+          <div class="panel panel-default">
             <!-- Default panel contents -->
             <div class="panel-heading">
               <h4>Leilões</h4>
@@ -135,34 +136,34 @@
             <div class="table-responsive">
               <table class="table">
                 <thead>
-                <tr>
-                  <th>Bens</th>
-                  <th>Maior licitação</th>
-                  <th>Tempo restante</th>
-                </tr>
+                  <tr>
+                    <th>Bens</th>
+                    <th>Maior licitação</th>
+                    <th>Tempo restante</th>
+                  </tr>
                 </thead>
                 <tbody>
-                <tr>
-                  <td>iPad 2,Relógio Rolex</td>
-                  <td>102.80€</td>
-                  <td>12:23:20</td>
-                </tr>
+                  <tr>
+                    <td>iPad 2,Relógio Rolex</td>
+                    <td>102.80€</td>
+                    <td>12:23:20</td>
+                  </tr>
                 </tbody>
               </table>
             </div>
           </div>
-    </div>
-    </div>
+        </div>
+      </div>
     </div>
     <div class="push"></div>
-	</div>
-	<div class="footer container-fluid">
-		<div class="row">
-			<div class="col-lg-12" align="center">
-				<a href="index.html"><img id="footerIcon" src="footer_icon.png" ></a>
-			</div>
-		</div>
-	</div>
+    </div>
+  	<div class="footer container-fluid">
+  		<div class="row">
+  			<div class="col-lg-12" align="center">
+  				<a href="index.html"><img id="footerIcon" src="footer_icon.png" ></a>
+  			</div>
+  		</div>
+  	</div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
