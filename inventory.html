@@ -32,8 +32,8 @@
         </div>
       <div class="col-lg-3 loginArea">
         <p>Bem-vindo, Visitante.</p>
-		<button><a href="register.html"><img src="register_icon.png" ></a></button>
-        <button><a href="login.html"><img src="off_button.png" ></a></button>
+		<a href="register.html"><button><img src="register_icon.png" ></button></a>
+        <a href="login.html"><button><img src="off_button.png" ></button></a>
         <!-- Mostrar apenas quando identificado
         <button><img src="create_icon.png" ></button>
         <button><img src="notifications_icon.png" ></button>
@@ -45,10 +45,10 @@
   </div>
   
 	<ul class="container-fluid tabs">
-		<li><a href="#"><img src="profile_icon.png" >Perfil</a></li>
-		<li id="selected"><a href="inventory.html"><img src="inventory_icon.png" >Inventário</a></li>
-		<li><a href="auctions.html"><img src="auctions_icon.png" >Leilões</a></li>
-		<li><a href="#"><img src="favorites_icon.png" >Favoritos</a></li>
+		<a href="#"><li><img src="profile_icon.png" >Perfil</li></a>
+		<a href="inventory.html"><li id="selected"><img src="inventory_icon.png" >Inventário</li></a>
+		<a href="auctions.html"><li><img src="auctions_icon.png" >Leilões</li></a>
+		<a href="#"><li><img src="favorites_icon.png" >Favoritos</li></a>
 	</ul>
   
   <div class="menu container-fluid">
@@ -108,9 +108,13 @@
 		</div>
 	</div>
 
-  <div class="footer container-fluid">
-    
-  </div>
+	<div class="footer container-fluid">
+		<div class="row">
+			<div class="col-lg-6 middle">
+				<a href="index.html"><img id="footerIcon" src="footer_icon.png" ></a>
+			</div>
+		</div>
+	</div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->

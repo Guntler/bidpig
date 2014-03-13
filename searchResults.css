@@ -65,6 +65,7 @@ body{
   border-top-right-radius: 7px;
   background-color: #e4e4e4;
   height:40px;
+  padding: 0 1em;
 }
 
 .tabs li:hover {
@@ -77,7 +78,7 @@ body{
 
 .tabs li a {
   display:inline;
-  padding: 0 1em;
+
   text-decoration:none;
   color: black;
 }
@@ -159,7 +160,13 @@ body{
 }
 
 .footer {
-  border-style: solid;
-  border-top: 2px;
   background-color: #a8a8a8;
+}
+
+.footer #footerIcon{
+	margin-top:10%;
+	margin-left:100%;
+	margin-bottom:5%;
+	width:50px;
+	height:auto;
 }
