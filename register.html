@@ -20,79 +20,81 @@
 
   </head>
   <body>
-  <div class="header container-fluid">
-    <div class="row">
-      <div class="col-lg-3 logo"><a href="index.html"><img src="logo.png"></a></div>
-      <div class="col-lg-6 middle">
-          <div class="input-group searchGroup center">
-            <form action="searchResults.html" method="get">
-            <input type="text" class="form-control" placeholder="Pesquisar na plataforma...">
-			</form>
+    <div class="wrapper">
+      <div class="header container-fluid">
+        <div class="row">
+          <div class="col-lg-3 logo"><a href="index.html"><img src="logo.png"></a></div>
+          <div class="col-lg-6 middle">
+              <div class="input-group searchGroup center">
+                <form action="searchResults.html" method="get">
+                <input type="text" class="form-control" placeholder="Pesquisar na plataforma...">
+    			</form>
+              </div>
+            </div>
+          <div class="col-lg-3 loginArea">
+            <p>Bem-vindo, Visitante.</p>
+    		<a href="register.html"><button><img src="register_icon.png" ></button></a>
+            <a href="login.html"><button><img src="off_button.png" ></button></a>
+            <!-- Mostrar apenas quando identificado
+            <button><img src="create_icon.png" ></button>
+            <button><img src="notifications_icon.png" ></button>
+            <button><img src="avatar_icon.png" ></button>
+            <button><img src="off_button.png" ></button>
+            -->
           </div>
         </div>
-      <div class="col-lg-3 loginArea">
-        <p>Bem-vindo, Visitante.</p>
-		<a href="register.html"><button><img src="register_icon.png" ></button></a>
-        <a href="login.html"><button><img src="off_button.png" ></button></a>
-        <!-- Mostrar apenas quando identificado
-        <button><img src="create_icon.png" ></button>
-        <button><img src="notifications_icon.png" ></button>
-        <button><img src="avatar_icon.png" ></button>
-        <button><img src="off_button.png" ></button>
-        -->
       </div>
-    </div>
-  </div>
-  
-	<ul class="container-fluid tabs">
-		<a href="#"><li><img src="profile_icon.png" >Perfil</li></a>
-		<a href="inventory.html"><li><img src="inventory_icon.png" >Inventário</li></a>
-		<a href="auctions.html"><li><img src="auctions_icon.png" >Leilões</li></a>
-		<a href="#"><li><img src="favorites_icon.png" >Favoritos</li></a>
-	</ul>
-  
-  <div class="menu container-fluid">
-    <div class="row">
-      <ul id="menuSearchButtons">
-        <li><button id="clothingSearchButton"><a href="">Vestimenta</a></button></li> | 
-        <li><button id="artSearchButton"><a href="">Arte</a></button></li> | 
-        <li><button id="appliancesSearchButton"><a href="">Eletrodomésticos</a></button></li> | 
-        <li><button id="informaticsSearchButton"><a href="">Informática</a></button></li> | 
-        <li><button id="carSearchButton"><a href="">Automóveis</a></button></li> | 
-        <li><button id="housewaresSearchButton"><a href="">Mobília</a></button></li> | 
-        <li><button id="houseSearchButton"><a href="">Imobiliário</a></button></li> | 
-        <li><button id="servicesSearchButton"><a href="">Serviços</a></button></li>
-      </ul>
-    </div>
-  </div>
+      
+    	<ul class="container-fluid tabs">
+    		<a href="#"><li><img src="profile_icon.png" >Perfil</li></a>
+    		<a href="inventory.html"><li><img src="inventory_icon.png" >Inventário</li></a>
+    		<a href="auctions.html"><li><img src="auctions_icon.png" >Leilões</li></a>
+    		<a href="#"><li><img src="favorites_icon.png" >Favoritos</li></a>
+    	</ul>
+      
+      <div class="menu container-fluid">
+        <div class="row">
+          <ul id="menuSearchButtons">
+            <li><button id="clothingSearchButton"><a href="">Vestimenta</a></button></li> | 
+            <li><button id="artSearchButton"><a href="">Arte</a></button></li> | 
+            <li><button id="appliancesSearchButton"><a href="">Eletrodomésticos</a></button></li> | 
+            <li><button id="informaticsSearchButton"><a href="">Informática</a></button></li> | 
+            <li><button id="carSearchButton"><a href="">Automóveis</a></button></li> | 
+            <li><button id="housewaresSearchButton"><a href="">Mobília</a></button></li> | 
+            <li><button id="houseSearchButton"><a href="">Imobiliário</a></button></li> | 
+            <li><button id="servicesSearchButton"><a href="">Serviços</a></button></li>
+          </ul>
+        </div>
+      </div>
 
-	<div class="main container-fluid">
-		<div id="registerContent" class="content">
-			<form class="form-signin" role="form" id="registerForm">
-				<h2 class="form-signin-heading center">REGISTAR</h2>
-				Nome de utilizador:<input class="form-control" required="" autofocus="" type="text" id="usernameField"><br>
-				Email:<input class="form-control" required="" type="text" id="emailField"><br>
-				Palavra-Passe:<input class="form-control" required="" type="password" id="passwordField"><br>
-				Repetir Palavra-Passe:<input class="form-control" required="" type="password" id="passwordField2"><br>
-				<label class="checkbox">
-					<input type="checkbox">Quero receber notificações por email.
-				</label>
-				<label class="checkbox">
-					<input type="checkbox">Li e concordo com os <a href="#">Termos e Condições de Uso</a>.
-				</label>
-				<button class="btn btn-lg btn-primary btn-block" type="submit">Submeter</button>
-			</form>
-		</div>
-		<div class="push"></div>
-	</div>
+    	<div class="main container-fluid">
+    		<div id="registerContent" class="content">
+    			<form class="form-signin" role="form" id="registerForm">
+    				<h2 class="form-signin-heading center">REGISTAR</h2>
+    				Nome de utilizador:<input class="form-control" required="" autofocus="" type="text" id="usernameField"><br>
+    				Email:<input class="form-control" required="" type="text" id="emailField"><br>
+    				Palavra-Passe:<input class="form-control" required="" type="password" id="passwordField"><br>
+    				Repetir Palavra-Passe:<input class="form-control" required="" type="password" id="passwordField2"><br>
+    				<label class="checkbox">
+    					<input type="checkbox">Quero receber notificações por email.
+    				</label>
+    				<label class="checkbox">
+    					<input type="checkbox">Li e concordo com os <a href="#">Termos e Condições de Uso</a>.
+    				</label>
+    				<button class="btn btn-lg btn-primary btn-block" type="submit">Submeter</button>
+    			</form>
+    		</div>
+    	</div>
+      <div class="push"></div>
+      </div>
 
-	<div class="footer container-fluid">
-		<div class="row">
-			<div class="col-lg-6 middle">
-				<a href="index.html"><img id="footerIcon" src="footer_icon.png" ></a>
-			</div>
-		</div>
-	</div>
+    	 <div class="footer container-fluid">
+          <div class="row">
+            <div class="col-lg-12" align="center">
+              <a href="index.html"><img id="footerIcon" src="footer_icon.png" ></a>
+            </div>
+          </div>
+        </div>
 
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
