@@ -165,6 +165,11 @@ body{
  
 }
 
+#mod-img{
+  width:25px;
+  height:auto;
+}
+
 #pictureExample img {
   height:auto;
   width:auto;
