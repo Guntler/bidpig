@@ -164,11 +164,11 @@ body{
 	vertical-align:middle;
 }
 
-#searchContent #pictureExample img {
+#searchContent #readStatus img {
   height:auto;
   width:auto;
-  max-width:100px;
-  max-height:100px;
+  max-width:40px;
+  max-height:40px;
 }
 
 .footer {
