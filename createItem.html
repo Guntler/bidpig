@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bid Pig</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    
+   <link href="createItem.css" rel="stylesheet">
+
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="header container-fluid">
+        <div class="row">
+          <div class="col-lg-3 logo"><a href="index.html"><img src="logo.png"></a></div>
+          <div class="col-lg-6 middle">
+              <div class="input-group searchGroup center">
+                <form action="searchResults.html" method="get">
+                <input type="text" class="form-control" placeholder="Pesquisar na plataforma...">
+    			</form>
+              </div>
+            </div>
+          <div class="col-lg-3 loginArea">
+            <p>Bem-vindo, Visitante.</p>
+    		<a href="register.html"><button><img src="register_icon.png" ></button></a>
+            <a href="login.html"><button><img src="off_button.png" ></button></a>
+          </div>
+        </div>
+      </div>
+      
+    	<ul class="container-fluid tabs">
+    		<a href="profile.html"><li><img src="profile_icon.png" >Perfil</li></a>
+    		<a href="inventory.html"><li><img src="inventory_icon.png" >Inventário</li></a>
+    		<a href="auctions.html"><li><img src="auctions_icon.png" >Leilões</li></a>
+    		<a href="#"><li><img src="favorites_icon.png" >Favoritos</li></a>
+    	</ul>
+      
+      <div class="menu container-fluid">
+        <div class="row">
+          <ul id="menuSearchButtons">
+            <li><button id="clothingSearchButton"><a href="">Vestimenta</a></button></li> | 
+            <li><button id="artSearchButton"><a href="">Arte</a></button></li> | 
+            <li><button id="appliancesSearchButton"><a href="">Eletrodomésticos</a></button></li> | 
+            <li><button id="informaticsSearchButton"><a href="">Informática</a></button></li> | 
+            <li><button id="carSearchButton"><a href="">Automóveis</a></button></li> | 
+            <li><button id="housewaresSearchButton"><a href="">Mobília</a></button></li> | 
+            <li><button id="houseSearchButton"><a href="">Imobiliário</a></button></li> | 
+            <li><button id="servicesSearchButton"><a href="">Serviços</a></button></li>
+          </ul>
+        </div>
+      </div>
+
+    	<div class="main container-fluid">
+    		<div id="registerContent" class="content">
+    			<form class="form-signin" role="form" id="registerForm">
+    				<h2 class="form-signin-heading center">Adicionar Item</h2>
+    				Nome do item:<input class="form-control" required="" autofocus=""><br>
+    				Categoria:<input class="form-control" required="" type="text"><br>
+    				Condição:<input class="form-control" required="" type="text"><br>
+    				Comentário:<textarea class="form-control" required="" type="text"></textarea><br>
+            Carregar fotos:<input class="form-control" required="" type="file"><br>
+    				<button class="btn btn-lg btn-primary btn-block" type="submit">Submeter</button>
+    			</form>
+    		</div>
+    	</div>
+      <div class="push"></div>
+      </div>
+
+    	 <div class="footer container-fluid">
+          <div class="row">
+            <div class="col-lg-12" align="center">
+              <a href="index.html"><img id="footerIcon" src="footer_icon.png" ></a>
+            </div>
+          </div>
+        </div>
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
