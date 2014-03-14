@@ -65,12 +65,22 @@
 
 	<div class="main container-fluid">
 		<div class="row">
-			<div id="searchContent" class="content">
-				<h3 class="left">Resultados da Pesquisa:</h3>
+			<div id="notificationsContent" class="content">
+				<div class="btn-group btn-group-middle" id="selectionButtons">
+						<button type="button" class="btn btn-default">Selecionar Todos</button>
+						<button type="button" class="btn btn-default">Deselecionar Todos</button>
+						<button type="button" class="btn btn-default">Inverter Selecção</button>
+					</div>
+					<div class="btn-group btn-group-right" id="objectButtons">
+						<button type="button" class="btn btn-info">Criar Nova</button>
+						<button type="button" class="btn btn-success">Mover</button>
+						<button type="button" class="btn btn-danger">Apagar</button>
+					</div>
 				<div class="table-responsive">
 					<table class="table table-striped table-hover">
 						<thead>
 							<tr>
+								<th></th>
 								<th></th>
 								<th>Sujeito</th>
 								<th>Remetente</th>
@@ -80,14 +90,24 @@
 						</thead>
 						<tbody>
 							<tr>
+								<td id="selected"><label class="checkbox"><input type="checkbox" value="remember-me"></label></td>
 								<td id="readStatus"><img src="unread_icon.png"></td>
 								<td>[AUTO] Novo Leilão</td>
 								<td>FEiras</td>
 								<td>O utilizador FEiras criou um novo <a href="#">leilão</a>.<p><button type="button" class="btn btn-info">Aprovar</button><button type="button" class="btn btn-danger">Reprovar</button></td>
 								<td>27/03/2014</td>
 							</tr>
+							<tr>
+								<td id="selected"><label class="checkbox"><input type="checkbox" value="remember-me"></label></td>
+								<td id="readStatus"><img src="read_icon.png"></td>
+								<td>Boas</td>
+								<td>FEiras</td>
+								<td>Vou criar um leilão amanhã.</td>
+								<td>26/03/2014</td>
+							</tr>
 						</tbody>
 					</table>
+					Página 1 de 1
 				</div>
 			</div>
 		</div>

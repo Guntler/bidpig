@@ -155,16 +155,16 @@ body{
   background-color: #e4e4e4;
 }
 
-#searchContent {
+#notificationsContent {
   margin-left:10%;
   margin-right:10%;
 }
 
-#searchContent #favorited{
+#notificationsContent #readStatus, #notificationsContent #selected {
 	vertical-align:middle;
 }
 
-#searchContent #readStatus img {
+#notificationsContent #readStatus img {
   height:auto;
   width:auto;
   max-width:40px;
