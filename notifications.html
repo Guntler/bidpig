@@ -16,34 +16,30 @@
       <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
     
-   <link href="searchResults.css" rel="stylesheet">
+   <link href="notifications.css" rel="stylesheet">
 
   </head>
   <body>
-  <div class="wrapper">
-  <div class="header container-fluid">
-    <div class="row">
-      <div class="col-lg-3 logo"><a href="index.html"><img src="logo.png"></a></div>
-      <div class="col-lg-6 middle">
-          <div class="input-group searchGroup center">
-			<form action="searchResults.html" method="get">
-            <input type="text" class="form-control" placeholder="Pesquisar na plataforma...">
-			</form>
-          </div>
-        </div>
-      <div class="col-lg-3 loginArea">
-        <p>Bem-vindo, Visitante.</p>
-		<a href="register.html"><button><img src="register_icon.png" ></button></a>
-        <a href="login.html"><button><img src="off_button.png" ></button></a>
-        <!-- Mostrar apenas quando identificado
-        <button><img src="create_icon.png" ></button>
-        <button><img src="notifications_icon.png" ></button>
-        <button><img src="avatar_icon.png" ></button>
-        <button><img src="off_button.png" ></button>
-        -->
-      </div>
-    </div>
-  </div>
+	<div class="wrapper">
+	<div class="header container-fluid">
+		<div class="row">
+		<div class="col-lg-3 logo"><a href="index.html"><img src="logo.png"></a></div>
+		<div class="col-lg-6 middle">
+			<div class="input-group searchGroup center">
+				<form action="searchResults.html" method="get">
+				<input type="text" class="form-control" placeholder="Pesquisar na plataforma...">
+				</form>
+			</div>
+			</div>
+			<div class="col-lg-3 loginArea">
+				<p>Bem-vindo, DonLawride.</p>
+				<a href="#"><button><img src="create_icon.png" ></button></a>
+				<a href="notifications.html"><button><img src="notifications_icon.png" ></button></a>
+				<a href="profile.html"><button><img src="avatar_icon.png" ></button></a>
+				<a href="login.html"><button><img src="off_button.png" ></button></a>
+			</div>
+		</div>
+	</div>
   
 	<ul class="container-fluid tabs">
 		<a href="profile.html"><li><img src="profile_icon.png" >Perfil</li></a>
@@ -75,22 +71,20 @@
 					<table class="table table-striped table-hover">
 						<thead>
 							<tr>
-								<th>Imagens</th>
-								<th>Nome</th>
-								<th>Dono</th>
-								<th>Descrição</th>
-								<th>Favoritos</th>
+								<th></th>
+								<th>Sujeito</th>
+								<th>Remetente</th>
+								<th>Conteúdo</th>
+								<th>Data Recebida</th>
 							</tr>
 						</thead>
 						<tbody>
 							<tr>
-								<td id="pictureExample"><img src="ipad_inventory.jpg"><img src="ipad_inventory_2.jpg"></td>
-								<td>iPad 2 usado</td>
-								<td>DonLawride</td>
-								<td>Risco no botão principal.</td>
-								<td id="favorited">
-									<button type="button" class="btn btn-default">Adicionar aos Favoritos</button>
-								</td>
+								<td id="readStatus"><img src="unread_icon.png"></td>
+								<td>[AUTO] Novo Leilão</td>
+								<td>FEiras</td>
+								<td>O utilizador FEiras criou um novo <a href="#">leilão</a>.<p><button type="button" class="btn btn-info">Aprovar</button><button type="button" class="btn btn-danger">Reprovar</button></td>
+								<td>27/03/2014</td>
 							</tr>
 						</tbody>
 					</table>
