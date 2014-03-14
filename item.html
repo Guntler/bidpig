@@ -32,16 +32,12 @@
             </div>
           </div>
           <div class="col-lg-3 loginArea">
-            <p>Bem-vindo, Visitante.</p>
-            <a href="register.html"><button><img src="register_icon.png" ></button></a>
-            <a href="login.html"><button><img src="off_button.png" ></button></a>
-            <!-- Mostrar apenas quando identificado
-            <button><img src="create_icon.png" ></button>
-            <button><img src="notifications_icon.png" ></button>
-            <button><img src="avatar_icon.png" ></button>
-            <button><img src="off_button.png" ></button>
-            -->
-          </div>
+				<p>Bem-vindo, DonLawride.</p>
+				<a href="createNew.html"><button><img src="create_icon.png"></button></a>
+				<a href="notifications.html"><button><img src="notifications_icon.png" ></button></a>
+				<a href="profile.html"><button><img src="avatar_icon.png" ></button></a>
+				<a href="login.html"><button><img src="off_button.png" ></button></a>
+			</div>
         </div>
       </div>
     
@@ -95,7 +91,14 @@
               <div class="panel-heading">
                 <div class="media">
                   <a class="pull-right" href="#">
-                    <img class="media-object" src="mod_button.png" id="mod-img" alt="Moderar">
+				  <div class="dropdown">
+                    <img class="dropdown-toggle" data-toggle="dropdown" src="mod_button.png" id="mod-img" alt="Moderar">
+					<ul class="dropdown-menu">
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Denunciar</a></li>
+						<li role="presentation" class="divider"></li>
+						<li role="presentation"><a role="menuitem" tabindex="-1" href="#">Apagar Item</a></li>
+					</ul>
+				</div>
                   </a>
                   <div class="media-body">
                     <h4 class="media-heading">Dados</h4>
