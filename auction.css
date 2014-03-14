@@ -1,0 +1,200 @@
+html,body{
+  height: 100%;
+}
+body{
+  width: 100%;
+}
+.wrapper{
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  background-color: #e4e4e4;
+  /* Negative indent footer by it's height */
+  margin: 0 auto -60px;  
+}
+.push{
+  height: 60px;
+}
+.header{
+  width:100%;
+  background-color: #e4e4e4;
+  text-align: center;
+  overflow: hidden;
+  margin-bottom: 0;
+}
+.header .logo img {
+  float: left;
+  margin-top: 2%;
+  display: inline-block;
+  width: 100px;
+}
+.center{
+  text-align: center;
+}
+.header .searchGroup{
+  width: 75%;
+  display: inline-block;
+  margin-top: 5%;
+}
+.header .middle{
+  vertical-align: bottom;
+}
+
+.header .loginArea {
+  margin-top: 1%;
+  display: inline-block;
+  margin-bottom: 1%;
+}
+
+.header .loginArea button {
+  border-style: none;
+  background:none;
+}
+
+.header .loginArea button img{
+  width:50px;
+  height:auto;
+}
+.tabs{
+  background-color:#e4e4e4; 
+  margin-bottom: 0;
+  width:100%;
+  text-align: center;
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+.tabs li {
+  text-align: center;
+  margin-bottom: 0;
+  display: inline-block;
+  border: 2px solid;
+  border-color: #f9f9f9;
+  border-bottom-width: 0;
+  border-style:none;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  background-color: #e4e4e4;
+  height:40px;
+  padding: 0 1em;
+}
+
+.tabs li:hover {
+  background-color: #c0c0c0;
+}
+
+.tabs li:hover a {
+  color:white;
+}
+
+.tabs li a {
+  display:inline;
+  text-decoration:none;
+  color: black;
+}
+
+.tabs li img {
+  padding-right:5px;
+}
+
+.tabs #selected {
+  position: relative;
+  border: 3px solid;
+  border-bottom-width: 0;
+  border-top-left-radius: 7px;
+  border-top-right-radius: 7px;
+  border-style:none;
+  border-bottom-style:solid;
+  background-color: #a8a8a8;
+}
+
+.tabs #selected a {
+  color:white;
+}
+
+.menu {
+  background-color: #a8a8a8;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  border-color:#f9f9f9;
+  border-style:none;
+  clear: both;
+}
+.menu ul {
+  margin:0;
+  padding:0px;
+  text-align: center;
+  margin-bottom: 0;
+}
+.menu li{ 
+  display:inline-block;
+}
+.menu a{ 
+    display:block; 
+    color: white;
+    text-decoration: none; 
+}
+.menu button {
+  height:30px;
+  background:none;
+  border:none;
+  border-radius:7px;
+}
+.menu button:hover {
+  background-color:#e4e4e4;
+}
+
+.menu button:hover a{
+  color:black;
+}
+
+.main{
+  padding: 2%;
+  background-color: #e4e4e4;
+}
+
+#loginContent {
+  border-style: solid;
+  margin-left:10%;
+  margin-right:10%;
+}
+
+#usernameField, #passwordField {
+}
+
+#loginForm {
+  margin-left: 25%;
+  margin-right: 25%;
+  padding-bottom:2%;
+}
+
+.thumbs{
+  padding: 2%;
+}
+
+.bid button{
+  margin-left: 1%;
+  margin-right: 1%;
+}
+#mod-img{
+  width:25px;
+  height:auto;
+}
+
+#registerRecover {
+  text-align:center;
+  margin-bottom:5%;
+}
+
+.footer {
+  padding-top: 8px;
+  padding-bottom: -8px;
+  height: 60px;
+  background-color: #a8a8a8;  
+}
+
+.footer #footerIcon{
+  width:50px;
+  height:auto;
+}
