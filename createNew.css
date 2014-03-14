@@ -56,6 +56,7 @@ body{
   height:auto;
 }
 .tabs{
+  background-color:#e4e4e4; 
   margin-bottom: 0;
   width:100%;
   text-align: center;
@@ -89,7 +90,6 @@ body{
 
 .tabs li a {
   display:inline;
-
   text-decoration:none;
   color: black;
 }
@@ -154,20 +154,17 @@ body{
   background-color: #e4e4e4;
 }
 
-#notificationsContent {
-  margin-left:10%;
-  margin-right:10%;
+#createContent {
+  margin-left:25%;
+  margin-right:25%;
+  vertical-align:center;
 }
 
-#notificationsContent #readStatus, #notificationsContent #selected {
-	vertical-align:middle;
-}
-
-#notificationsContent #readStatus img {
-  height:auto;
-  width:auto;
-  max-width:40px;
-  max-height:40px;
+#createContent .newTable img {
+	width:auto;
+	height:auto;
+	max-width:150px;
+	max-height:150px;
 }
 
 .footer {
@@ -180,4 +177,4 @@ body{
 .footer #footerIcon{
   width:50px;
   height:auto;
-} 
+}
