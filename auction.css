@@ -187,6 +187,17 @@ body{
   margin-bottom:5%;
 }
 
+#pictureExample img{
+  width: auto;
+  height: auto;
+  max-height: 100px;
+  max-width: 100px;
+}
+
+#pictureExample button{
+  border: none;
+}
+
 .footer {
   padding-top: 8px;
   padding-bottom: -8px;

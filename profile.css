@@ -165,6 +165,11 @@ body{
  
 }
 
+
+.profile-table>tbody>tr>th, .profile-table>tbody>tr>td {
+    border-top: none;
+}
+
 #mod-img{
   width:25px;
   height:auto;
